@@ -1,22 +1,42 @@
-body{
-	background-color:#eee;
-}
 .container{
-	position:relative;
+	background-color:#eee;
+	padding:20px;
+	overflow:auto;
 }
+
 
 .group{
 	float:left;
 	width:200px;
-	margin:0px;
+	padding:20px;
+	background-color:white;
+	border:solid black 1px;
+}
+
+.group p{
+	float:right;
+}
+
+.group img{
+	float:left;
+	
 }
 
 .introduction{
-	clear:both;
+	margin-left:260px;
+	margin-right:140px;
+	padding:20px;
+	background-color:white;
+	border:solid black 1px;
 }
 
 .groupmember{
 	float:right;
 	width:120px;
-	margin:0px;
+	background-color:white;
+	border:solid black 1px;
+}
+
+.groupmember img{
+	padding:20px;
 }
